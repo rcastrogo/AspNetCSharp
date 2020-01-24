@@ -1,0 +1,62 @@
+﻿
+
+.regeus-panel{ background-color : whiteSmoke; border-top : solid 1px silver; box-sizing : border-box; padding : 10px; overflow : auto; }
+.regeus-panel h2, .regeus-panel h3{ border-bottom: solid 1px gray; margin: 6px 0; padding: 2px 0; color: gray; text-align :center }
+.regeus-panel .h { padding: 5px; text-align: center; border-bottom: solid 1px silver; margin: 0; color: black;}
+.regeus-panel .tag{ padding: .5em 2em; background-color:white; border:solid 1px silver; border-radius:1em; margin-bottom: 1em; position:relative;}
+.regeus-panel .toolbar { padding: 5px; margin-top: 5px; border-top: solid 1px silver; width: 99%; text-align:right; }
+
+/* 
+Datos usuario en Regeus
+*/ 
+.regeus-name { font-size: 150%; font-weight: bold; color:darkslategray }
+.regeus-ca   { font-size: 150%; font-weight: bold; color:darkslategray}
+.regeus-email{ font-size: 110%; font-style: italic; color:darkslategray }
+.regeus-telefono{ font-size: 100%; color: darkslategray }
+.regeus-telefono:before{ content : '☎ '; display:inline }
+.regeus-fecha{ font-style: italic; color: darkslategray }
+.regeus-toogle-btn{ position: absolute; right: 20px;  top: 20px; font-size: 200%; }
+.regeus-save-btn{ height: 31px; }
+.add-group-btn { position: absolute; right: 46px; top: 4px; font-size: 12px;}
+.code-group-btn{ position: absolute; right: 18px; top: 4px; font-size: 12px;}
+/* 
+Grupos Regeus
+*/ 
+#regeus-roles-container    { min-height:5em; max-height:8em; margin: 0 0 1.5em 0; border-bottom:solid 1px silver; overflow:auto; background-color:white; padding: 0 10px 6px 10px; }
+#regeus-roles-container ul { padding: 0 2em;}
+#regeus-roles-container li { list-style-type: decimal-leading-zero;  float: left; width: 15em;}
+
+/* 
+Datos Usuario
+*/ 
+#app-group-container{ min-height : 5em; margin: 0; border:solid 0px silver; overflow:auto; background-color:white; }
+.selectable-group { padding: 1em .5em; margin: .5em; border: solid 1px silver; border-radius: 5px; width:16em; float:left;}
+.selectable-group input[type=checkbox]{ vertical-align:middle}
+
+/* 
+Configuración Servicios Web
+*/ 
+div.user-data{ padding:.5em; height:13em; background-color:transparent; }
+div.user-data .T1 { padding: .3em 0; text-align:center; position:relative;}
+div.user-data .T1 span { position:absolute; top:0; right:0; width:2em; border: solid 1px silver; cursor:pointer; font-weight:bold; display:none;}
+div.user-data .c1{ float:left; width: 49.75%;}
+div.user-data .c1:first-child{ margin-right:.5% }
+div.user-data .user-properties{ border:solid 1px silver; border-radius:.3em; height:11em; overflow:auto;}
+div.user-data .user-services  { border:solid 1px silver; border-radius:.3em; height:11em; overflow:auto;}
+
+.data-table{ background-color:silver; width:100%; border-collapse: collapse; border:none; border-spacing:1px; }
+.data-table td{ background-color: white; padding:1px 2px; border-bottom: solid 1px silver; }
+.data-table tr:last-child td{border-bottom: none; }
+.data-table td + td{ border-left:solid 1px silver;width:85%} 
+.data-table div[contenteditable]{ padding:.25em .5em .4em .5em; background-color:white; outline:none; border:solid 1px transparent; font-size:11px; font-family:monospace; min-height:1em; }
+.data-table div[contenteditable]:focus{ background-color:#f4f4f4 ; border:solid 1px silver; transition: background-color 1s ease-out; }
+
+/* 
+Dialogo envío de mensajes
+*/ 
+.msg-dlg-container { padding: 10px; margin: 0 2em 0 6em; }
+.msg-dlg-container div.img  { background-position: -285px 0px; top: 15px;}
+.msg-dlg-container pre { width: 100%; box-sizing: border-box; margin: 0; padding: 3px; font-size: 100%; overflow: auto; border: solid 1px silver; white-space: pre-line; line-height: 1.3em;}
+.msg-dlg-container textarea { width: 100%; box-sizing: border-box; padding: 3px; font-size:100%;}
+.msg-dlg-container input[type=text] { width: 100%; box-sizing: border-box; padding: 3px; font-size:100%;}
+

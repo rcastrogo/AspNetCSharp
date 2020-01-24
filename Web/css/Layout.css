@@ -1,0 +1,147 @@
+﻿.MenuContainer {position: absolute;	margin-left: 2px; left: 0em;top: 9.0em;	width: 18.2em;	bottom: 4.3em;	z-index: 1;overflow-y: auto; overflow-x: hidden;}
+.MainContainer {position: absolute;	margin: 0px; z-index: 8;display: block;	left: 19.4em;	top: 9.0em;	overflow: hidden;bottom: 4.3em;	right: 1px;	border: solid 1px silver;}
+.ItemsContainer {position: absolute;	z-index: 3;	top: 5em;	bottom: 2.6em;	left: 0em;	right: 0px;	overflow-y: auto; overflow-x: hidden; background: transparent url() no-repeat center center;}
+.SearchContainer {display:none ;position: absolute;	z-index: 0;	top: 2.3em;	height: 0em; left: 0em; right: 0px; overflow-y: auto; overflow-x: hidden;}                  
+.SearchSpliter   {display:none ;position: absolute; z-index: 5; top: 0em; height: .7em;left: 0em;	right: 0px;overflow: hidden;border-bottom:solid 1px silver;border-top:solid 1px silver;cursor:pointer; background: #F9FCEB url(../img/S3.gif) no-repeat center 2px;}                  
+.ToolbarContainer {	position: absolute;	height: 2.2em;	top: 0em;bottom: 0em;	left: 0em;	right: 0px;	overflow: hidden;	border-bottom: solid 1px silver;z-index: 2;}
+.TopPaginationContainer {position: absolute;top: 2.4em;	bottom: 0px;right: 0px;	left: 0em;	height: 2.5em;	border-bottom: solid 1px silver;	z-index: 5;overflow:hidden;}
+.BottomPaginationContainer {position: absolute;	bottom: 0px;	right: 0px;	height: 2.5em;	left: 0em;	border-top: solid 1px silver;	z-index: 5;}
+.Pie {	position: absolute;	bottom: 0px;	right: 0px;	height: 1.6em;	left: 0px;	margin: -1px 1px 1px 1px;	z-index: 9;}
+.spliter {position: absolute; margin: 1px; z-index: 0;display: block;left: 18.5em; top: 9.0em; width:8px; overflow: hidden; bottom: 4.3em; cursor:pointer;}
+.spliter:hover {background-color: lightyellow;}
+.spliter.S1 { }
+.spliter.S2 { }
+
+.PagMensaje {padding: 5px 0px 5px 5px; font-size: 115%;font-weight: bolder;color: Gray; float: left; width: auto; white-space: nowrap;}
+.PagControls {  float: right; margin: 1px 5px 0px 0px;font-size: 115%;color: Gray;font-weight: bolder;}
+.PaginadorInput input{color: black;font-weight: bolder;border:solid 1px gray;}       	
+div.PaginadorPrimero   { width:10px ;background : transparent url(../img/spritesheet.png) no-repeat 0px -27px;}
+div.PaginadorAnterior  { width:10px ;background : transparent url(../img/spritesheet.png) no-repeat 0px -11px;}
+div.PaginadorSiguiente { width:10px ;background : transparent url(../img/spritesheet.png) no-repeat 0px 4px;}
+div.PaginadorUltimo    { width:10px ;background : transparent url(../img/spritesheet.png) no-repeat 0px -44px;}
+.Paginador.PaginadorPrimero.over	{ background : transparent url(../img/spritesheet.png) no-repeat -17px -27px;}
+.Paginador.PaginadorAnterior.over	{ background : transparent url(../img/spritesheet.png) no-repeat -15px -11px;}
+.Paginador.PaginadorSiguiente.over	{ background : transparent url(../img/spritesheet.png) no-repeat -15px 4px;}
+.Paginador.PaginadorUltimo.over		{ background : transparent url(../img/spritesheet.png) no-repeat -17px -44px;}
+div.PagDes{ filter:alpha(opacity=50); opacity:0.5;}
+.Menu li a {overflow-x: hidden;}
+
+div.fc{ margin-bottom:.1em;padding:0em; width: 99%; box-sizing: border-box;}  
+div.fcl { margin-left:.2em; }
+div.fcr { margin-right:.2em; }
+div.fcap{ margin:0px; margin-top:2px; padding:0px; box-sizing: border-box; }
+label.fcap { display:inherit; margin-top:2px;margin-bottom:2px;  box-sizing: border-box; font-size:9px } 
+
+
+.SearchContainer {padding-left:50px; background : #f5f5f5 url(../img/spritesheet.png) no-repeat -7px -550px;}
+.SearchContainer h4{margin: 0px 0px 0px 0px;}
+
+textarea{overflow:auto;}
+
+a.tbBtnDelete {padding-left:2.3em ;background : transparent url(../img/icon_borrar.png) no-repeat}
+a.tbBtnNew {padding-left:2.3em ;background : transparent url(../img/icon_tb_new.png) no-repeat}
+a.tbBtnHelp {padding-left:2.3em ;background : transparent url(../img/spritesheet2.png) no-repeat -95px -51px;}
+a.tbBtnEdit {padding-left:2.3em ;background : transparent url(../img/icon_tb_edit.png) no-repeat}
+a.tbBtnPrint {padding-left:2.3em ;background : transparent url(../img/icon_tb_pdf.png) no-repeat}
+a.tbBtnPrintList {padding-left:2.3em ;background : transparent url(../img/icon_tb_pdf.png) no-repeat}
+a.tbBtnSave {padding-left:2.3em ;background : transparent url(../img/spritesheet.png) no-repeat -39px -279px;}
+a.tbBtnOptions {padding-left:2.3em ;background : transparent url(../img/spritesheet2.png) no-repeat -1px -182px;}
+.TblEdit{background : transparent url(../img/spritesheet.png) no-repeat 0 -92px;}
+.TblNew{background : transparent url(../img/spritesheet.png) no-repeat 0 -67px;}
+.TblDelete{background : transparent url(../img/spritesheet.png) no-repeat 0 -117px;}
+    
+#TBar1-014{background : transparent url(../img/spritesheet.png) no-repeat -39px -403px; padding-left:2em;}
+#TBar1-015{background : transparent url(../img/spritesheet.png) no-repeat -38px -432px; padding-left:2em;}
+#TBar1-016{background : transparent url(../img/spritesheet.png) no-repeat -36px -304px; padding-left:2em;}
+
+.SliderC {position:relative; width:100%; border:solid 1px silver; height:4.5em}
+.SliderC {box-sizing: border-box; -moz-box-sizing: border-box;}
+.SliderC {border-radius: 10px;}
+
+.Slider  {position:absolute; left:2em; top:.2em; right:2em; bottom:3.2em; border:solid 1px gray; background-color: Silver; cursor:pointer}
+.Slider  {border-radius: 3px;  }
+.SliderB {position:absolute; left:0; top:0; right:0; bottom:0; background-color: gray;}
+.SliderB {background: transparent url(../img/caption.jpg) repeat left top ; opacity:.8;  filter:alpha(opacity=80); }
+.SliderR {background: none; opacity:.5;  filter:alpha(opacity=50); }   
+.SliderH {position:absolute; left:0; top:-.5em; right:0; bottom:-.5em; width:8px; margin-left:-4px; cursor:w-resize; }
+.SliderH {background: transparent url('../img/Slider.png') no-repeat center center;}
+.SliderL {-moz-transition: .5s left; transition: .5s left;}     
+.SliderStep {  position:absolute; bottom:0; margin-bottom:-1.40em; width:3px; margin-left:-1px; 
+               background: transparent url(../img/SpriteSheet2.png) no-repeat -391px -1px; 
+               height:.5em;}
+.SliderL { border:solid 1px gray; background-color:Silver; text-align:center; font-size:9px; position: absolute; bottom:-3.33em; width:3.7em; margin-left:-2em;cursor:default;}
+.ls,.le{ border:none; padding:1px; background-color:White; font-weight:lighter; }
+.lr{ padding:0 2px; font-weight:bold; background-color: silver ; opacity:.4;  filter:alpha(opacity=40);  border-radius: 4px }
+
+.Schedule{ position:absolute; top:0.3em; right:.3em; bottom:0.3em; left:.3em; border:solid 1px silver; border-radius: 6px}
+.ScheduleHeader{ position:absolute; top:.3em; right:.3em; left:.3em; height:3em ;border-bottom:solid 1px gray; padding-top:.3em;}
+.ScheduleHeader input[type=button]{ margin:0; font-size:12px; min-width:4em; float: right; background-color:#efefef;margin-left: .5em; padding:.2em .5em; border:solid 1px silver; vertical-align:middle; text-align:center; display:block; cursor:pointer; border-radius: 5px}
+.ScheduleHeader input[type=button]:hover{ background-color:Silver; color:White; border-color:Gray;}
+.ScheduleHeader input[type=button].left { float:left; min-width:2em;}
+.ScheduleLabel { float:left; border: solid 0px silver; padding:.4em .5em; font-weight:bold; font-size:120%; color:Gray; text-align:center; margin-left:.5em;border-radius: 5px}
+.ScheduleBody{ position:absolute; top:3.6em; right:.3em; left:.3em; bottom:3.6em;z-index:1;}
+.ScheduleFooter{ position:absolute; right:.3em; left:.3em; height:2.4em;bottom:0.3em; border-top:solid 1px gray;padding: 5px;font-size:120%; box-sizing: border-box;font-weight: bold;  color: gray;}      
+
+.ScheduleContainer{ position: absolute; top:0em; bottom:0; left:.5em; right:.5em; }
+
+.ScheduleOverlay_0{ position: absolute; top:0em; bottom:0; left:1em; right:1em; }
+.ScheduleOverlay_1{ position: absolute; top:2em; bottom:2em; left:1em; right:1em; overflow:auto; border: solid 1px silver; }        
+.ScheduleOverlay_0 .vline{ background-color:silver; top:2em; bottom:2em; width:1px;  position:absolute; }
+.ScheduleOverlay_0 .label_top{ margin-left: -1.5em; Color: Gray; font-weight:bold; font-size:9px; top:.5em; position:absolute;  }
+.ScheduleOverlay_0 .label_bottom{ margin-left: -1.5em; Color: Gray; font-weight:bold;  font-size:9px; bottom:.5em; position:absolute; }    
+.ScheduleOverlay_1 .Schedule_i { position:absolute; height:2em; padding:.5em; border: solid 2px white; background-color:navy; color:White; border-radius: 10px; box-shadow: 2px 2px 14px gray; filter:alpha(opacity=80); opacity:0.8; box-sizing:border-box; } 
+
+.Schedule table.Cal { width:100%; height:100%; background-color:silver; border-spacing:1px; table-layout:fixed;  }
+.Schedule table.Cal td {background-color:White; width: 14.28571%; text-align:right; vertical-align:top; padding:.5em .5em .2em .2em; position:relative; }
+.Schedule table.Cal tr.Cal_header { height:2em;  }
+.Schedule table.Cal td.Cal_header { background-color:#DFDFDF; color: gray; text-align: center; font-weight:bold; vertical-align:middle;padding:0;}
+.Schedule table.Cal td.Cal_Day_Disabled { color:silver}
+.Schedule table.Cal td div.Cal_day_con{ position:absolute; top:1.5em; bottom:.2em; left:.2em; right:.2em; overflow:auto; overflow-y:hidden;}
+
+#RToolBar1-001{ float:right !important}
+#RToolBar1-003{ float:left;}
+
+.ToolBar .logout-btn{ border: solid 1px gray; border-radius: 5px; padding: 2px 6px; background-color: silver; color: white; margin: 2px 1px 2px 5px; font-size: 9px;}
+.ToolBar .logout-btn:hover{ border: solid 1px gray; background-color: white; color: gray;}
+
+#ExportDialog{ position: absolute; top:0; left:.2em; right:.2em; bottom: 0; -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none; user-select: none; background: transparent url(../img/ExportDlg.png) no-repeat left top}
+#ExportDialog h3{padding-left:5em;}
+#buttonsContainer{ position: absolute; top:6em; left:.2em; right:.2em; height: 3.4em; }
+#buttonsContainer button { padding:.4em .5em; border:solid 1px silver; margin-right:.2em; padding-left:2em; background-image: url(../img/SpriteSheet2.png); background-repeat: no-repeat ;border-radius:.5em;}
+#buttonsContainer button.current_button { background-color: white; }
+#buttonsContainer #btn_export_file{ margin-left:1.5em; background-position: -378px -267px;}
+#buttonsContainer #btn_export_csv{ background-position: -378px -128px;}
+#buttonsContainer #btn_export_xml{ background-position: -378px -67px;}
+#buttonsContainer #btn_export_txt{ background-position: -378px -186px;}
+#buttonsContainer #btn_export_json{ background-position: -378px -214px;}
+#previewMainContainer{ position: absolute; top:9.5em; left:.2em; right:.2em; bottom: 0; border:solid 1px silver; overflow:auto; padding:0; background-repeat:no-repeat; background-position: center center;}    
+#previewContainer{ position: absolute; top:0; left:3.6em; right:0; height:auto; z-index:4; margin:0; ; -webkit-user-select: text;-moz-user-select: text;-ms-user-select: text; user-select: text;}
+#previewContainer{ padding:0 0 1.4em .4em; white-space:pre; overflow: hidden; font-family: Monospace; font-size:11px; tab-size: 4;}
+#previewLineContainer{ position: absolute; top:0; left:.2em; right:.2em; height:auto; margin:0; z-index:0; overflow = visible;}
+#previewLineContainer span{font-family:Monospace; font-size:11px; margin:0; display: block; text-align:right; width:3em; margin:0; padding:0 .2em 0 0; box-sizing: border-box; }
+#overlayText{position:absolute; margin:0; top:9.5em; right:.2em; bottom:0; left:4em; background-color:White;}
+#overlayLine{position:absolute; margin:0; top:9.5em; width:4em; bottom:0; left:.2em; border-right: solid 1px silver;background-color:#EEEEEE;}
+
+
+#RToolBar1-005 {display:none;float: left !important; padding: 0; margin: -1px 12px; font-size: 17px; color: gray;cursor: pointer;position:relative;transform: scale(1.2);}
+#RToolBar1-005:active{ transform: scale(1.1);}
+#RToolBar1-005 span{ font-size: 7px;  display: inline-block;  background-color: darkgray; padding: 2px; border: solid 1px ghostwhite; border-radius: 1.6em;position: absolute;font-weight: bold;left: 48%;top:-3px;color: whitesmoke;width: 1.5em;text-align: center; }
+#notification-panel { background-color: white; position: absolute;  display:none; top: 6.7em; left: 80px; width: 0; height: 0;border : solid 2px gray;  box-sizing: content-box; border-radius:6px;z-index: 1000; transition: height .1s ease-out;box-shadow: 3px 3px 12px black; }
+.arrow_box:after, .arrow_box:before { bottom: 100%; left: 92%; left: calc( 100% - 30px); border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+.arrow_box:after  { border-color: rgba(255, 246, 240, 0); border-bottom-color: white;  border-width: 10px;  margin-left: -10px; }
+.arrow_box:before { border-color: rgba(113, 131, 143, 0); border-bottom-color: gray;   border-width: 13px;  margin-left: -13px; }
+.UI-container   { position: absolute; top: 1em; left:1em; right:1em; bottom:1em; border-radius:.5em; overflow:hidden;}
+.UI-container h2{ text-align: center; margin: 0 0 0.5em 0;  padding: 0 0 .3em 0; border-bottom: solid 1px gray; color: gray; } 
+.UI-container-list{ overflow: auto; position: absolute; left: 0; right: 0; bottom: .2em; top: 2.3em; border-bottom: solid 1px gray;}
+.UI-container-list .item{min-height: 5em; width: 92%; margin: 2% 2%; border: solid 1px silver; border-radius: 5px; padding: 2%; background-color: ghostwhite; position:relative; overflow:hidden; transition:width .2s linear, background-color .2s linear ; }
+.UI-container-list .item:before{ content : '🔔'; font-size:3em; float:left; background-color: white; color: gray; border-radius: 50%; width: 1.25em; height: 1.5em; margin-right: .2em;  border: solid 3px gray; text-align:center; }
+.delete-btn { position: absolute; top: 5px; right: 9px; box-shadow: 1px 1px 5px silver; padding: 0 4px; text-align: center; font-weight: normal; cursor:pointer;}
+.msg-subject{ font-weight:bold}
+.msg-date{ color:gray; font-style:italic;}
+/*.msg-date:before{ content : '✉ '; font-style:normal }*/
+.msg-from{ color:gray; font-style:italic;}
+/*.msg-from:before{ content : '✦ '; font-style:normal }*/
+.msg-body{ border-bottom:dashed 1px silver; padding-bottom:.5em;}
+.msg-link{ float:right;}
+
+#table-5501 thead tr th:nth-child(n+3):hover{ background-color:lightgray;}

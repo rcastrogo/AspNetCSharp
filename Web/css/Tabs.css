@@ -1,0 +1,31 @@
+   
+.TCon1 { position:relative; width:100%; Theight:22em}
+.TCon1 .Tab {position:absolute;width:100%;Theight:20em;top:2.1em;left:0px;bottom:0px;right:0px;border: 1px solid #B1C3D4; overflow:auto;}		
+.TCon1 ul.HeaderT { position:absolute;margin:0px;padding:0px;left:10px;z-index:2;}
+.TCon1 ul.HeaderT li {float: left;width:auto;height:2.0em;padding-left:15px;list-style: none;border: 1px solid #B1C3D4;border-left: 0px solid #B1C3D4;cursor:pointer;background: #E8EDF1 url(xxxx.gif) no-repeat 4px center;}	
+.TCon1 ul.HeaderT li.first {	border-left: 1px solid #B1C3D4;margin: 0px;}
+.TCon1 ul.HeaderT li.active { border-right: 1px solid #B1C3D4; border-bottom:3px solid #FFFFFF;background-color: #FFFFFF;cursor:default; margin-top:-2px;}
+.TCon1 ul.HeaderT li span { display: block; font-size: 100%; font-weight: bold; color: Gray;margin: 0px;	padding: 3px 7px;}
+.TCon1 ul.HeaderT li.active span {color: black;} 
+
+.TCon2 { position:relative; width:100%; height:22em ; background-color:white;}
+.TCon2 .Tab {position:absolute;width:100%;height:20em;top:0em;left:0px;bottom:2.0em;right:0px;border: 1px solid #B1C3D4; overflow:auto;}		
+.TCon2 ul.HeaderT {position:absolute; top:20.2em; margin:-1px 0px 0px 0px; padding:0px;left:10px;z-index:3;}
+.TCon2 ul.HeaderT li { padding-left:15px; float: left;width:auto;height:2.0em;padding-left:15px;list-style: none;border: 1px solid #B1C3D4;border-left: 0px solid #B1C3D4;cursor:pointer;background: #E8EDF1 url(xxxx.gif) no-repeat 4px center;}	
+.TCon2 ul.HeaderT li.first {border-left: 1px solid #B1C3D4;margin: 0px;}
+.TCon2 ul.HeaderT li.active { border-right: 1px solid #B1C3D4; border-top:3px solid #FFFFFF;background-color: #FFFFFF;cursor:default; margin-top:0px;}
+.TCon2 ul.HeaderT li span { display: block; font-size: 100%; font-weight: bold; color: Gray;margin: 0px;	padding: 3px 7px;}
+.TCon2 ul.HeaderT li.active span {color: black;}
+
+.TCon3 {position: relative; width: 100%; height: 22em; background-color: white;}
+.TCon3 .Tab { width: 100%; height: 20em; top: 0em; bottom: 2.0em; border: 1px solid #B1C3D4; overflow: auto;}
+.TCon3 div.HeaderT { position: absolute; top: 20.244em; left: 10px; z-index: 1;}
+.TCon3 div.HeaderT .TabItem {float: left; width: auto; height: 2.0em; padding: 1px 2px; cursor: pointer; z-index: 2; margin-right:-8px;}
+.TCon3 div.HeaderT .TabItem.active { background-color: Transparent;cursor: default; margin-top: -1px; z-index: 3;}
+.TCon3 div.HeaderT .TabItem.active{position:relative;left: -3px;z-index: 10;}   
+.TCon3 div.HeaderT .TabItem div.Caption {margin-top: -1px;border-right: 1px solid gray; border-left: 1px solid gray; color: Gray; padding: 1px 4px; background: #E8EDF1 url(x.gif) no-repeat 4px center; width: auto;}  
+.TCon3 div.HeaderT .TabItem.active div.Caption {font-weight: bold;color: black; background-color: white;padding-bottom: 6px;padding-left:6px;}
+.TCon3 .b1 {height: 1px; display: block; background: gray;margin: 0px 5px;}
+.TCon3 .b2 {height: 1px; display: block; border-right: 2px solid gray; border-left: 2px solid gray; margin: 0px 3px; background-color: #18EDF1;}
+.TCon3 .b3 {height: 1px; display: block; border-right: 1px solid gray; border-left: 1px solid gray; margin: 0px 2px; background-color: #68EDF1;}
+.TCon3 .b4 {height: 1px; display: block; border-right: 1px solid gray; border-left: 1px solid gray; margin: 0px 1px; background-color: #E8EDF1;}   

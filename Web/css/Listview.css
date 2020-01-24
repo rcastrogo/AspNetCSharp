@@ -1,0 +1,23 @@
+.ListView { position:absolute; border: solid 1px silver;}
+.ListView .header {position:absolute; top:0; left:0; right:0; height:2.7em; border-bottom: solid 1px silver; background-color:#efefef}
+.ListView .header .title{ position:absolute; top:0.7em; left:0.7em; width:auto; font-weight:bold; color:Gray;}
+.ListView .body { position:absolute;top:2.7em; left:0; right:0; bottom:2.6em; overflow-y: auto;overflow-x: hidden;}
+.ListView .body {}
+.ListView .footer { position:absolute;left:0; right:0; bottom:0;height:2.6em;border-top: solid 1px silver; background-color:#efefef;}
+.ListView .footer .title{ position:absolute; top:0.7em; left:0.7em; width:auto; font-weight:bold; color:Gray;}
+
+.ListView .btn { margin-top:.3em; width:2em; height:2em; float:right;border: solid 1px silver; margin-left: .5em; cursor:pointer; filter: alpha(opacity=40); opacity: .4; background:transparent url() no-repeat center center;}
+.ListView .delete{background-image: url(../img/icon_Eliminar.png)}
+.ListView .new{background-image: url(../img/icon_new.gif)}
+.ListView .edit{background-image: url(../img/icon_edit.gif);}  
+.ListView .begin{background : transparent url(../img/a_rew.gif) no-repeat center 0; margin-left:1em;}   
+.ListView .previous{background : transparent url(../img/a_rew1.gif) no-repeat center 0;}
+.ListView .info{ width:auto; color: Gray; text-align:center; border: none; height:auto; padding-top:.3em; cursor:default;}
+.ListView .next{background : transparent url(../img/a_forw1.gif) no-repeat center 0;}
+.ListView .end{background : transparent url(../img/a_forw.gif) no-repeat center 0;margin-right:.3em;}
+.ListView .view{background-image:url(../img/icon_view.gif);margin-right:.3em;}
+
+.mnu_delete{background-image: url(../img/icon_Eliminar.png); background-position:0.4em 0.4em !important;}
+.mnu_edit {background-image: url(../img/icon_edit.gif); background-position:0.4em 0.4em !important;}
+.mnu_new {background-image: url(../img/icon_new.gif); background-position:0.4em 0.4em !important;}
+.mnu_view {background-image:url(../img/icon_view.gif); background-position:0.4em 0.4em !important;} 

@@ -1,0 +1,366 @@
+*{font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+a.Normal{color:black; text-decoration:none}
+a.Normal:hover{text-decoration: underline;}
+
+h4{
+  font-size:1.5em;
+  margin:5px 0px 5px 0px;
+  padding:0px 0px 2px 0px;
+  line-height:1.5em;   
+}
+h4.Titulo{background:transparent url(../img/HeaderBG_FLIP.jpg) repeat-y right 0px;}
+h4.Titulo1{border-bottom:solid 1px gray;}
+h4.Titulo2{background-color:#E7F59E;}
+
+h5{background:transparent url(../img/HeaderBG_FLIP.jpg) repeat-y right 0px;}
+h5{padding-bottom:2px; border-bottom:solid 1px black}
+h5.Apartado{font-size:1em; font-weight:lighter;}
+h5.Apartado{float: none; clear: both;}
+h5.Titulo1{font-size:1.2em;margin:0px 0px 0px 0px}
+
+p{margin:5px 0px 5px 0px}
+
+body{background-color:white;margin:1px;font-size: 60.0%;}
+
+table.Main{margin:0px 0px 2px 0px;float:left;table-layout:fixed}
+table.Main td.derecha{padding:2px 1px 0px 2px;}
+table.Main td.izquierda{padding:2px 0px 0px 1px;width: 18.5em}
+  
+/*===================================================== */
+/*	    Menu										                       	*/
+/*===================================================== */    
+.MenuContainer{float:left;width:18em;border: solid 1px #DBDCE3;padding:0px;}		
+.Menu{margin:0px;padding:3px;cursor:pointer;border: solid 0px #DBDCE3;}
+.Menu{background-color:white;}
+
+.Menu li{height:1%}
+.Menu li {padding:0px;background:white url() repeat 0px 0px;margin-bottom:0px;}
+.Menu li {list-style:none;border-top:solid 1px #DBDCE3;}
+.Menu li:first-child{border-top:solid 0px #DBDCE3;}
+.Menu li.On{background:#F9FCEB url() repeat 0px 0px}
+.Menu li.Off{background:white url() repeat 0px 0px}
+
+.current{background-color:#E7F59E !important; }
+
+.Menu li a{text-decoration:none;color:black;padding:4px 4px 4px 22px;display:block;height:auto;}
+.Menu li a{background: transparent url() no-repeat 0.1em center;}
+.Menu li a:hover{color:blue}
+
+.Menu li.title{ margin-top: .6em;  padding: .3em;  font-style: italic; cursor: default;  border: none;
+                border: solid 1px grey; background-color: silver; color:white; font-style:italic; vertical-align: top; margin-bottom:4px;
+                font-weight:normal; text-align:center;
+                box-shadow: silver 2px 2px 4px;
+                }
+.Menu li.title + li{ border:none}             
+/*===================================================== */
+/*	    Cabecera										*/
+/*===================================================== */	
+.HeaderContainer{width:100%;padding:0px;overflow: auto;}
+.HeaderContainer{background:transparent url(../img/logoR.png) repeat-y right 0px;}
+.HeaderContainer{border-bottom:solid 2px #DBDCE3}
+
+.HeaderContainer div.Logo{float:left;font-size:1.8em;width:220px;height:61px;background:transparent url(../img/logomarm.png) no-repeat;}
+.HeaderContainer div.Titulo{line-height:1.3em;font-variant:small-caps; float:left;width:60%; font-weight:bold; font-size:3em;margin:-5px 0px 0px -35px;}
+.HeaderContainer div.Titulo span{font-size: 50%;margin-top: -2px;position: absolute; line-height:1em;}
+
+/*============================================================= */
+/*	  Barra de Herramientas                                     */
+/*============================================================= */	
+
+.ToolBar{height:auto;float:left;color:black;width:100%;}
+.ToolBar{background:white url(../img/HeaderBG.jpg) repeat-y right 0px;}
+.ToolBar{border-bottom:solid 1px #DBDCE3}
+.ToolBar{margin-top:0px;}
+ 
+.ToolBar a{text-decoration:none;white-space:nowrap;cursor:pointer;padding:3px 1px 3px 4px}
+.ToolBar a{margin:2px;float:Left;}
+.ToolBar a.icon{color:inherit;padding-left:20px;}
+.ToolBar a:hover{color:blue;}
+
+.ToolBar div{margin:2px;display:block;float:left;white-space:nowrap;}
+.ToolBar div{color:inherit;cursor:inherit;padding:3px 1px 3px 4px;}
+.ToolBar div.icon{padding-left:20px;background:transparent url() no-repeat 0.1em center;}
+.i_tb_delete{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -94px -156px;}
+.i_tb_edit{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -269px -52px;}
+.i_tb_new{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -269px -28px;}
+.i_tb_search{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -270px -82px;}
+.i_tb_cancel{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -2px -76px;}
+.i_tb_config{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -2px -182px;}
+.i_tb_export{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -2px -155px;}
+.i_tb_send{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -94px -1px;}
+.i_tb_save{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -187px -24px;}
+.i_tb_table{ background: transparent url(../img/SpriteSheet2.png) no-repeat; background-position: -187px -105px;}
+.i_tb_back{ background: transparent url(../img/SpriteSheet.png) no-repeat; background-position: 1px -481px;}
+
+/*============================================================= */
+/* Pie de pagina											    */
+/*============================================================= */
+.Pie{margin:8px 0px 0px 0px;padding:12px;text-align:center;height:16px;}
+.Pie span.P{background:white url(../img/escudo.gif) no-repeat center left; padding:12px 2px 15px 35px; height:18px;}
+.Pie{border:solid 1px #DBDCE3;}	
+ 
+/*===================================================== */
+/*	    Formularios										*/
+/*===================================================== */
+div.fc{float:left; border:solid 0px black;min-width:60px}
+div.fcap{background-color:transparent;white-space:nowrap; margin:0px 2px 1px 2px}
+
+textarea{ resize: none; }
+	
+div.fc select,div.fc textarea,div.fc input, input.fc{padding:2px;font-size: 9px;background-color:#f8f8f8;border:solid 1px gray; z-index:0;box-sizing: border-box;}
+div.fc input[disabled], div.fc select[disabled], div.fc textarea[disabled]{background-color:#e9e9e9;}
+div.fc input[type="button"]{font-size: 9px;height:2.2em;}
+
+div.fc input:focus, div.fc textarea:focus{
+	border-color:blue;	
+}
+div.fc input[readOnly]:focus, div.fc textarea[readOnly]:focus{
+	border-color: gray;
+}
+
+div.fcap span.B{ color:Red; font-weight:bold;}
+
+div.fc input[type="checkbox"],div.fc input[type="radio"]{background-color:transparent;border:solid 0px gray; vertical-align:middle;}
+.NameBox{
+  padding-left:18px !important;
+  background:transparent url('../img/icon_name.gif') no-repeat 1px 1px;
+}
+.MailBox{
+  padding-left:17px !important;
+  background:transparent url('../img/icon_mail.gif') no-repeat 0px 0px;
+}
+.TelefonoBox{
+  padding-left:20px !important;
+  background:transparent url('../img/icon_telefono.gif') no-repeat 1px 0px;
+}
+.FaxBox{
+  padding-left:20px !important;
+  background:transparent url('../img/icon_fax.gif') no-repeat 1px 0px;
+}
+
+div.ButtonContainer{border-top:solid 1px #dbe6f4;padding-top:5px}
+div.ButtonContainer input[type="button"]{font-size: 9px%;height:2.2em;float:right;margin-left:5px;border:solid 1px gray}
+
+/*===================================================== */
+/*	    TABLA  .MTable{-moz-user-select: none;}         */
+/*  cursor:url(../img/MyDragTab.cur),auto;              */
+/*===================================================== */
+.MTable{border: solid 0px #F4FBD2;background-color:white;margin:1px;}
+.MTable thead{background-color:#F4FBD2;color:black;}
+.MTable tfoot{background-color:#F4FBD2;color:black;padding:2px;}
+
+td.Check{height:2em;}
+.MTable-Row-x-impar-check td.Check, .MTable-Row-x-check td.Check{padding-left:18px; background-image:url('../img/uncheck.gif'); background-repeat: no-repeat; background-position: 1px center;}
+.MTable-Row-x-impar{background-color:#F2F8F2;}
+.MTable-Row-x{background-color:#F9F9F9;}
+
+.MTable td{padding-left:2px;}
+
+
+.Negrita{font-weight:bold;}
+.CellMin{width:1px;}
+.Center{text-align:center;}
+.Left{text-align:left;}
+.Right{text-align:right;}
+.CellInfo{width:18px}
+.Code{font-family: Monospace;color:blue ;font-size:110% !important; }
+
+.InfoBox{
+  cursor:pointer;
+  width: 16px;
+  height:16px;
+  background:transparent url() no-repeat center center;
+}
+
+span.sortX{cursor:pointer}
+.ColSorter{
+  width  : 16px;
+  height : 16px;
+  float  : right;
+  background : transparent url(../img/spritesheet.png) no-repeat -44px 2px;
+  cursor : pointer;
+}
+.ColSorterUp{
+  width  : 16px;
+  height : 16px;
+  float  : right;
+  background : transparent url(../img/spritesheet.png) no-repeat -44px -13px;
+  cursor : pointer;
+}
+.ColSorterDown{
+  width  : 16px;
+  height : 16px;
+  float  : right;
+  background : transparent url(../img/spritesheet.png) no-repeat -44px -28px;
+  cursor : pointer;
+}
+
+#btnAceptar, .Aceptar{
+  float:right;
+  font-size: 9px;
+  height:2.5em; 
+  margin-left:5px;
+  border:solid 1px gray;
+  padding-left:18px;
+  background:#f9f9f9 url(../img/icon_save.gif) no-repeat 2px center;  
+}
+.Nuevo{background:#f9f9f9 url(../img/icon_user_new.gif) no-repeat 2px center;}
+.Buscar{background:#f9f9f9 url(../img/icon_user_search.gif) no-repeat 2px center;}
+#btnCancelar, .Cancelar{
+  float:right;
+  font-size: 9px;
+  height:2.5em; 
+  margin-left:5px;
+  border:solid 1px gray;
+  padding-left:18px;
+  background:#f9f9f9 url(../img/icon_Eliminar.png) no-repeat 2px center;  
+}
+.NoIcon{background-image:none; padding-left: 0px;}
+
+.ContextMenu{
+  position:absolute;
+  top: 200px;
+  left: 200px;    
+  border:solid 1px gray;
+  background-color:white;
+  filter:progid:DXImageTransform.Microsoft.shadow(direction=135,color=#c0c0c0,strength=5);
+  z-index:10000; 
+}
+.ContextMenu div{
+  float:left;
+  width:150px;
+  clear:left;
+  line-height:1.8em;
+  vertical-align:middle;
+  margin:1px 2px 1px 2px;
+  padding:2px 0px 2px 3em;   
+  cursor:pointer;
+  background-repeat:no-repeat;
+  background-position: 0.4em 0.2em;
+    
+}
+.ContextMenu div.over{
+  background-color: Navy;
+  color:white;
+  font-weight:bolder;
+}
+.ContextMenu div.separador{
+  cursor:default;
+  height: 1px;
+  width:150px;
+  margin:0px 2px 0px 2px;
+  border-bottom:solid 1px silver;
+  background-image: none;
+}
+
+/*paginador*/
+.tfootContainer        { height:20px;}
+div.PaginadorRegistro  { float:right;margin-right:3px;padding:3px 0px 7px 4px;}
+div.Paginador          { float:left;	padding:3px 2px 7px 2px; width:20px;height:10px;}
+div.PaginadorPrimero   { background: transparent url(../img/b_rew.gif) no-repeat  center center;}
+div.PaginadorAnterior  { background: transparent url(../img/b_rew1.gif) no-repeat center center;}
+div.PaginadorSiguiente { background: transparent url(../img/b_forw1.gif) no-repeat center center;}
+div.PaginadorUltimo    { background: transparent url(../img/b_forw.gif) no-repeat center center;}
+div.PaginadorInput     { float:left;	padding:1px 0px 0px 2px;}
+.PaginadorInput input  { font-size: 9px;	margin-top:1px;width: 24px; border: 1px solid #000000;	text-align:center;}
+
+
+div.EM-Rol {  
+  font-weight: bold;
+  height: 3.4em;
+  width: 120px;
+  float: left;
+  margin: 1px;
+  padding: 2px;
+  padding-left: 20px;
+  background: transparent url('../img/icon_roles.gif') no-repeat 2px 2px;
+  
+  text-overflow: ellipsis;
+  overflow: hidden;     
+  white-space:nowrap;
+}
+div.EM-user		{ background: transparent url('../img/icon_user.gif') no-repeat 2px 2px;}
+div.EM-e-mail	{ padding-bottom: 2px; font-weight: normal; color: Gray; width: 100%; overflow: hidden; text-overflow: ellipsis; border-bottom: solid 1px gray;}
+
+
+.Calendar{border: solid 0px gray;z-index: 100000;}
+.Calendar{background: Silver url(../img/Calendar/Cal.Caption.gif) repeat-x;	padding-top: 9px;}
+.Calendar table{border: solid 1px gray;	background-color: #DBDCE3;}
+.Calendar thead{background-color: Transparent;}
+.Calendar tbody{background-color: White;}
+.Calendar td.today{color: white; text-align: center; font-weight:bold; background-color: Navy;cursor: pointer;}
+.Calendar td.CalendarDay{color: black; text-align: center;cursor: pointer;}
+.Calendar td.CalendarDayDisabled{color: gray;text-align: center;}
+.Calendar td.SelectedDay{color: red;font-weight: bold;text-align: center;background: transparent url(../img/Calendar/Cal.Today.gif) no-repeat center center;}
+.Calendar .Calendar-header-day{	color: blue;font-weight: bold;	text-align: center;}
+.Calendar div{float: left;}
+.Calendar div.Left{	width: 16px;height: 16px;border: solid 1px gray;margin-right: 2px;	cursor: pointer;	background: transparent url(../img/Calendar/Cal.Previous.gif) no-repeat center center;}
+.Calendar div.Right{width: 16px;height: 16px;border: solid 1px gray;margin-right: 2px;cursor: pointer;background: transparent url(../img/Calendar/Cal.Next.gif) no-repeat center center;}
+.Calendar div.Close{float: right;margin-right: 0px;margin-left: 2px;width: 16px;height: 16px;border: solid 1px gray;cursor: pointer;background: transparent url(../img/Calendar/Cal.Close.gif) no-repeat center center;}
+.Calendar select{background-color:white}
+.Calendar select.cboMes{font-size: 9px;}
+.Calendar select.cboAnio{font-size: 9px;margin-left: 2px;}
+input.txtCalendar{padding-left:18px !important;background: white url(../img/Calendar/Cal.icon.gif) no-repeat 0px -2px; text-align:center}
+.XdragX{filter: alpha(opacity=50); opacity: 0.50;z-index: 100000;}
+
+.ta{background-color: White; border: solid 1px gray; table-layout: fixed; width: 245px;}
+.ta {background: transparent url(../img/boton.gif) repeat-x top top;}
+.ta thead tr{background: transparent url(../img/boton.gif) repeat-x center center;}
+.ta thead td.ti { color: black; padding: 3px; width: 99%; font-weight: bold; cursor: move;}
+.ta thead td.boton { padding: 3px;  width: 14px; cursor: pointer; background: transparent url(../img/contraer.gif) no-repeat center center;}  
+.ta div.BoxContainer{padding: 2px; background-color: White; border: solid 0px gray; border-top: solid 1px gray; overflow: auto;}
+
+
+.Arr  { background: silver url(../img/combo.gif) no-repeat center center; }
+
+.W1 {position:absolute; border: solid 1px gray; display:none; background-color:White;z-index:10001; left:40%; top:40%; width:10em; height:3em; }
+.W1-Caption{position:absolute;top:0;left:0;right:0; text-align:center;height:1.5em; line-height:1.6em;border-bottom: solid 1px gray;}
+.W1-Caption{background-color: #EFFFBD; font-weight:bold;font-size:130%; color:black; cursor: default}
+.W1-Body{position:absolute;top:3em;left:.6em;right:.6em; bottom:4.5em; z-index:2; background-color:White;}
+.W1-Body h4{ font-size:1.10em; margin-top:0; padding:0;}
+.W1-Body .message{ position:absolute; top:0; bottom:0; right:0; left:0; font-size:140%; overflow-y: auto; padding-left:60px;}
+.W1-Body div.img, .W1-Body .message div.img { width: 50px; height: 48px; position: absolute; top: 0; left: 0.4em; background : transparent url(../img/Dlg_S_Sheet.png) no-repeat left top }
+.W1-Body.error_image   .message .img{background-position: -338px 0 ;}
+.W1-Body.info          .message .img{background-position: -142px -50px;}
+.W1-Body.confirm_image .message .img{background-position: -336px -48px ;}
+.W1-Body.info_image div.img{ font-size:1.25em; font-weight:bold; white-space:nowrap; margin:0; padding:.9em .2em .9em 3.3em;max-height: 1.4em; background : transparent url(../img/bg-wait.gif) no-repeat left center; color: navy}
+
+.loading_image {background : transparent url(../img/bg-wait.gif) no-repeat center center;}
+.i_export{ background-position: 0 -339px !important; }
+
+div.Error { padding-left: 6em; min-height: 5em;margin:1em; }
+div.Info  { padding-left: 6em; min-height: 7em; margin:1em; }
+div.Error div.img, div.Info div.img { width: 50px; height: 48px; position: absolute; top: 1em; left: 0.8em; background : transparent url(../img/Dlg_S_Sheet.png) no-repeat left top }
+div.Error div.img.i_error{ background-position: -338px 0; }
+div.Info  div.img.i_info { background-position: -142px -50px ;}
+
+.W1-Footer{position:absolute;left:.8em;right:.8em; bottom:.2em;height:4em; background-color: White; border-top: solid 1px silver;text-align:center; padding-right:.1em;}
+.W1-Footer input[type=button] { height:2.1em; border: solid 1px silver; margin-top:.4em; margin-left:.3em; background-color:#efefef; border-radius:.5em; }
+.W1-Footer .btnSave { width:7em; background:  transparent url(../img/spritesheet.png) no-repeat  -110% -276px; padding-left:2em;}        
+.W1-Footer .btnCancel {width:7em; background: transparent url(../img/spritesheet.png) no-repeat  -110% -301px;padding-left:2em; }
+.W1-Footer .btn {width:7em;}
+.W1-Footer .btnSi,.W1-Footer .btnNo {width:5em;}       
+
+.W1-Caption{border-top-left-radius : .5em;border-top-right-radius : .5em; 
+            border-top-left:solid 1px gray;
+            border-top-right:solid 1px gray;}
+.W1{border-radius : 1em; box-shadow: 5px 5px 1em gray;}
+
+.W1-Layer{	z-index:10000;	background-color:#aaaaaa;	filter:alpha(opacity=50); opacity:0.5; position:absolute; left:0em;top:0em;	bottom:0em;	right:0em;display:none;}         
+
+
+.Menu LI a.Word { background : transparent url(../img/spritesheet2.png) no-repeat -266px -1px }
+.Menu LI a.Pdf { background : transparent url(../img/spritesheet2.png) no-repeat -380px -244px }
+.Menu LI a.Usuarios { background : transparent url(../img/spritesheet.png) no-repeat -37px -249px }
+.Menu LI a.Charts    { background : transparent url(../img/spritesheet.png) no-repeat -38px -503px }
+.Menu LI a.send,.ToolBar a.send { background : transparent url(../img/icon_enviar.gif) no-repeat 3px 2px }
+.Menu LI a.csv { background : transparent url(../img/spritesheet2.png) no-repeat -382px -131px }
+.Menu LI a.history { background : transparent url(../img/spritesheet2.png) no-repeat -186px -130px }
+.Menu LI a.doc{ background: transparent url(../img/SpriteSheet2.png) no-repeat -381px -102px}
+.Menu LI a.ws{ background: transparent url(../img/SpriteSheet2.png) no-repeat -188px -231px}
+.Menu li a b.menu-sub{font-size:95%; color:red; font-weight:normal; font-style:italic;}
+.Menu li a b.float-right{float:right;}
+
+canvas.default-canvas { width:100%; height:99%;margin:0; padding:0; box-sizing:border-box}
+#chart-1 {float:left; margin-top: .3em; background-color: #efefef;border-radius: .5em; width:2em;height: 2.1em; border: solid 1px silver;}

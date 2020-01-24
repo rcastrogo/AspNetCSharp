@@ -1,0 +1,61 @@
+
+; ===========================================================
+; Dal.Repositories.SampleUsuariosRepository
+; ===========================================================
+#Dal.Repositories.SampleUsuariosRepository.OrderBy%ID
+#Dal.Repositories.SampleUsuariosRepository.Select%SELECT ID,CD_USUARIO,DS_USUARIO FROM T_SEG_USUARIOS
+
+
+; ===========================================================
+; Dal.Repositories.PerfilesRepository
+; ===========================================================
+#Dal.Repositories.PerfilesRepository.OrderBy%ID ASC
+#Dal.Repositories.PerfilesRepository.Delete%DELETE FROM [T_SEG_PERFILES] WHERE ID={0}
+#Dal.Repositories.PerfilesRepository.Select%SELECT ID, CD_PERFIL, DS_PERFIL, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION FROM [T_SEG_PERFILES]
+#Dal.Repositories.PerfilesRepository.Insert%INSERT INTO [T_SEG_PERFILES] (CD_PERFIL, DS_PERFIL, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION) VALUES({0}, {1}, {2}, {3}, {4}) ; SELECT @@IDENTITY;
+#Dal.Repositories.PerfilesRepository.Update%UPDATE [T_SEG_PERFILES] SET CD_PERFIL = {1}, DS_PERFIL = {2}, CD_USUARIO_MOD = {3}, FE_ALTA = {4}, FE_MODIFICACION = {5} WHERE ID={0}
+
+
+; ===========================================================
+; Dal.Repositories.UsuariosRepository
+; ===========================================================
+#Dal.Repositories.UsuariosRepository.OrderBy%ID ASC
+#Dal.Repositories.UsuariosRepository.Delete%DELETE FROM [T_SEG_USUARIOS] WHERE ID={0}
+#Dal.Repositories.UsuariosRepository.Select%SELECT ID, CD_USUARIO, DS_USUARIO, DS_EMAIL, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION FROM [T_SEG_USUARIOS]
+#Dal.Repositories.UsuariosRepository.Insert%INSERT INTO [T_SEG_USUARIOS] (CD_USUARIO, DS_USUARIO, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION, DS_EMAIL) VALUES({0}, {1}, {2}, {3}, {4}, {5}) ; SELECT @@IDENTITY;
+#Dal.Repositories.UsuariosRepository.Update%UPDATE [T_SEG_USUARIOS] SET CD_USUARIO = {1}, DS_USUARIO = {2}, CD_USUARIO_MOD = {3}, FE_ALTA = {4}, FE_MODIFICACION = {5}, DS_EMAIL = {6} WHERE ID={0}
+
+; =======================================================================================
+; Dal.Repositories.table_name
+; =======================================================================================
+#Dal.Repositories.table_name.Count%SELECT COUNT(*) FROM T_SEG_USUARIOS WHERE ID = '{0}'
+#Dal.Repositories.table_name.SelectAll%SELECT ID, CD_USUARIO, DS_USUARIO, DS_EMAIL, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION FROM [T_SEG_USUARIOS]
+>>>
+Dal.Repositories.table_name.SelectAllSmall
+SELECT ID,
+	   CD_USUARIO,
+	   DS_USUARIO,
+	   DS_EMAIL,
+	   CD_USUARIO_MOD,
+	   FE_ALTA,
+	   FE_MODIFICACION
+FROM [T_SEG_USUARIOS]
+
+#Dal.Repositories.table_name.CountNew%SELECT COUNT(*) FROM T_SEG_USUARIOS WHERE ID = '{0}'
+>>>
+#Dal.Repositories.table_name.CountNew2
+SELECT COUNT(*)
+FROM T_SEG_USUARIOS
+WHERE ID = '{0}'
+
+; ===========================================================
+; Dal.Repositories.CoordinadosRepository
+; ===========================================================
+#Dal.Repositories.CoordinadosRepository.OrderBy%ID ASC
+#Dal.Repositories.CoordinadosRepository.Delete%DELETE FROM [T_MAE_COORDINADOS] WHERE ID={0}
+#Dal.Repositories.CoordinadosRepository.Select%SELECT ID, CD_COORDINADO, DS_COORDINADO, FE_INI_VIGENCIA, FE_FIN_VIGENCIA, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION FROM [T_MAE_COORDINADOS]
+#Dal.Repositories.CoordinadosRepository.Insert%INSERT INTO [T_MAE_COORDINADOS] (CD_COORDINADO, DS_COORDINADO, FE_INI_VIGENCIA, FE_FIN_VIGENCIA, CD_USUARIO_MOD, FE_ALTA, FE_MODIFICACION) VALUES({0}, {1}, {2}, {3}, {4}, {5}, {6}) ; SELECT @@IDENTITY;
+#Dal.Repositories.CoordinadosRepository.Update%UPDATE [T_MAE_COORDINADOS] SET CD_COORDINADO = {1}, DS_COORDINADO = {2}, FE_INI_VIGENCIA = {3}, FE_FIN_VIGENCIA = {4}, CD_USUARIO_MOD = {5}, FE_ALTA = {6}, FE_MODIFICACION = {7} WHERE ID={0}
+
+
+

@@ -1,0 +1,18 @@
+﻿; ===========================================================
+; Perfil
+; ===========================================================
+#Perfil
+Integer,Id,Id#
+String,Codigo,Cod#
+String,Descripcion,Des
+
+#PerfilSmall
+Integer,Id,i#
+String,Codigo,c#
+String,Descripcion,d
+
+#PerfilXXX@Negocio.Entities.Perfil
+Integer,Id,i_xxx#
+String,Codigo,c_xxx#
+String,Descripcion,d_xxx
+

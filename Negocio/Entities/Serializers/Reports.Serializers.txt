@@ -1,0 +1,14 @@
+﻿
+; ===========================================================
+; Coordinados
+; ===========================================================
+#Coordinados
+Integer,Id,Id#
+String,Codigo,Codigo#
+String,Descripcion,Descripcion#
+Date,FechaDeInicioDeVigencia,FechaDeInicioDeVigencia#
+Date,FechaDeFinDeVigencia,FechaDeFinDeVigencia#
+String,ModificadoPor,ModificadoPor#
+Date,FechaDeInsert,FechaDeInsert#
+Date,FechaDeUpdate,FechaDeUpdate
+

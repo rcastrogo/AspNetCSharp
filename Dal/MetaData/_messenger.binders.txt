@@ -1,0 +1,32 @@
+
+;###################################################
+;                Messenger     
+;###################################################
+#Negocio.Entities.Messenger.Group
+ 0, _id                           , Integer
+ 1, _name                         
+
+#Negocio.Entities.Messenger.GroupMember
+ 0, _id                           , Integer
+ 1, _groupId                      , Integer
+ 2, _userId                       , Integer
+
+#Negocio.Entities.Messenger.Message
+ 0, _id                           , Integer
+ 1, _parentId                     , Integer
+ 2, _userId                       , Integer
+ 3, _sentAt                       , datetime
+ 4, _type                         , Integer
+ 5, _subject                      
+ 6, _body                         
+ 7, _data                          
+
+#Negocio.Entities.Messenger.Recipient
+ 0, _id                           , Integer
+ 1, _messageId                    , Integer
+ 2, _userId                       , Integer
+
+#Negocio.Entities.Messenger.User
+ 0, _id                           , Integer
+ 1, _userId                       
+ 2, _userName 

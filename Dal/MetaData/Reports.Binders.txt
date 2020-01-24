@@ -1,0 +1,14 @@
+
+; ===========================================================
+; Negocio.Entities.Coordinado
+; ===========================================================
+#Negocio.Entities.Coordinado
+ 0, _id                           , Integer
+ 1, _codigo                       
+ 2, _descripcion                  
+ 3, _fechaDeInicioDeVigencia      , datetime
+ 4, _fechaDeFinDeVigencia         , datetime
+ 5, _modificadoPor                
+ 6, _fechaDeInsert                , datetime
+ 7, _fechaDeUpdate                , datetime
+

@@ -1,0 +1,47 @@
+#mobileMenuHandler{ display:none }
+
+@media screen and (max-width: 480px) { 
+  .HeaderContainer{ position:relative; overflow:hidden; border: solid 4px gray; box-sizing: border-box;}
+  .HeaderContainer div.Titulo{ position:absolute; top:-.35em; left:0; right:0; bottom:0; margin:0; width:inherit; padding-top:.2em; padding-left:.5em; } 
+  .ToolbarContainer{position:relative}
+  .ToolBar { border-bottom: solid 1px White; }
+  #RToolBar1{ background-color:Gray; background-image:none; color:silver;font-size:140%; display:none; box-sizing: border-box; float:inherit; min-height:3.3em; border:none;  }
+  #RToolBar1 span{display: inline-block; width: 4.5em; padding-left:.2em; box-sizing: border-box;}
+  #RToolBar1-001{ width: 100%; overflow:hidden; float:left !important; margin:0;box-sizing: border-box;white-space: pre-line;}
+  #RToolBar1-002{ width: 100%; overflow:hidden; float:left !important; margin:0;box-sizing: border-box;white-space: pre-line;}
+  #RToolBar1-003{display:none;}
+  .MenuContainer { border:none;box-sizing: border-box; display:none;border-bottom: solid 2px white;background-color: gray;} 
+  #Menu1 { position:relative; width:100%; float:left; margin:0; top:inherit;bottom:inherit; }
+  ul.Menu { background-color: Gray; }
+  ul.Menu li { background-color: Gray; border-top: solid 1px silver; color:silver }
+  ul.Menu li a { color:silver; font-size:140%; }
+  .Menu li.Off { background-color: Gray; }
+  .Menu li.On { background-color: white; }
+  .Menu li.On a{ Color: Gray !important; }
+  li.current{ background:Gray url(../img/MenuItem_mobile.png) no-repeat 1em center !important;}
+  li.current a{ Color: white !important; }
+       
+  #mobileMenuHandler{ position:relative; box-sizing: border-box; height:4.2em; display: block;width: 100%; background-color:Gray; }
+  #mobileMenuHandler div{ height:3.4em;box-sizing: border-box;cursor:pointer; position: absolute; border:solid 0px silver; top:.3em}
+  #MobileButtonMenu { left:1%;  width:4.2em; background: gray url(../img/menu_mobile.png) no-repeat center center; }
+  #MobileButtonHome { left:5em; width:4.2em; background: gray url(../img/home_mobile.png) no-repeat center center;}
+  #MobileButtonInfo { left:9.6em; width:4.2em; background: gray url(../img/User_mobile.png) no-repeat center center;} 
+  #MobileButtonSearch { right:1%; width:4.2em; background: gray url(../img/Search_mobile.png) no-repeat center center;}
+  
+  #splitter{ display:none }
+  
+  #MainContainer{ position:relative; height:inherits; top:inherit; bottom:inherit; left:inherit; right:inherit; border:none; border-top:solid 0px #DBDCE3;}
+  #MainContainer{ float:left; width:100% ;box-sizing: border-box;}
+  #MainContainer .G5{ width:inherit; float6:none; box-sizing: border-box; margin-right:12.5em}
+  
+  .SearchContainer {box-sizing: border-box; border-bottom:solid 1px #DBDCE3; background-image:none; padding-left:.5em; top:0; position:relative; float:left; display:none; width:100%; height:inherit;}
+  #TBar1-014{display:none;}
+  #TBar1-015{width: 1em;}  
+  #TableContainer{position:relative;top:0; bottom:0; float:left; width:100%}
+  #BottomPaginationContainer{ position:relative; top:0; bottom:0; left:0; right:0;float: left;width: 100%;}
+  #TopPaginationContainer{ position:relative; top:0; bottom:0; left:0; right:0; float: left;width: 100%;}
+
+  #IdProgressLocation{ position:relative; border:none; border-top:solid 2px #DBDCE3; margin:0; float:left;box-sizing: border-box; width:100%;}
+  
+  #buttonsContainer button { padding: .6em .7em .6em 2.3em; font-size:9.5px;}
+}

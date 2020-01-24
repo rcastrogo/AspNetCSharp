@@ -1,0 +1,43 @@
+
+; ########################################
+;              Messenger 
+; ########################################
+; ========================================
+; Messenger.Groups
+; ========================================
+#Messenger.Groups
+Integer,Id,Id#
+String,Name,Name
+; ========================================
+; Messenger.GroupMembers
+; ========================================
+#Messenger.GroupMembers
+Integer,Id,Id#
+Integer,GroupId,GroupId#
+Integer,UserId,UserId
+; ========================================
+; Messenger.Messages
+; ========================================
+#Messenger.Messages
+Integer,Id,Id#
+Integer,ParentId,ParentId#
+Integer,UserId,UserId#
+Date,SentAt,SentAt#
+Integer,Type,Type#
+String,Subject,Subject#
+String,Body,Body#
+String,Data,Data
+; ========================================
+; Messenger.Recipients
+; ========================================
+#Messenger.Recipients
+Integer,Id,Id#
+Integer,MessageId,MessageId#
+Integer,UserId,UserId
+; ========================================
+; Messenger.Users
+; ========================================
+#Messenger.Users
+Integer,Id,Id#
+String,UserId,UserId#
+String,UserName,UserName
