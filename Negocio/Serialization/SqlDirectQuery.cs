@@ -12,15 +12,15 @@ namespace Negocio.Core
   {
     private SqlDirectQuery() { }
 
-    public static System.Collections.IList LoadFromQuery(string query)
+    public static string LoadFromQuery(string query)
     {
       String __name = String.Format("SqlDirectQuery_{0:X}", query.GetHashCode());
-      return CreateAndFillSerializerFromQuery(__name, query).GetValues();
+      return CreateAndFillSerializerFromQuery(__name, query).ToJsonString();
     }
 
-    public static System.Collections.IList LoadFromQuery(DbContext context, string query){
+    public static string LoadFromQuery(DbContext context, string query){
       String __name = String.Format("SqlDirectQuery_{0:X}", query.GetHashCode());
-      return CreateAndFillSerializerFromQuery(__name, context, query).GetValues();
+      return CreateAndFillSerializerFromQuery(__name, context, query).ToJsonString();
     }
     
     public static SmallXmlSerializer CreateAndFillSerializerFromQuery(string name, DbContext context, string query)
