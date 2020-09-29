@@ -12,6 +12,17 @@ namespace Negocio.Core
   {
     private SqlDirectQuery() { }
 
+    public static System.Collections.IList LoadFromQuery(string query)
+    {
+      String __name = String.Format("SqlDirectQuery_{0:X}", query.GetHashCode());
+      return CreateAndFillSerializerFromQuery(__name, query).GetValues();
+    }
+
+    public static System.Collections.IList LoadFromQuery(DbContext context, string query){
+      String __name = String.Format("SqlDirectQuery_{0:X}", query.GetHashCode());
+      return CreateAndFillSerializerFromQuery(__name, context, query).GetValues();
+    }
+    
     public static SmallXmlSerializer CreateAndFillSerializerFromQuery(string name, DbContext context, string query)
     {
       using (var __repo = new Dal.Repositories.DynamicRepository(context))
