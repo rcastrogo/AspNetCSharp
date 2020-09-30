@@ -22,6 +22,18 @@ namespace Negocio.Core
       String __name = String.Format("SqlDirectQuery_{0:X}", query.GetHashCode());
       return CreateAndFillSerializerFromQuery(__name, context, query).ToJsonString();
     }
+
+    public static string LoadFromNamedQuery(string name)
+    {
+      String __name = String.Format("SqlDirectQuery_{0:X}", name.GetHashCode());
+      return CreateAndFillSerializer(__name, null, name).ToJsonString();
+    }
+
+    public static string LoadFromNamedQuery(DbContext context, string name)
+    {
+      String __name = String.Format("SqlDirectQuery_{0:X}", name.GetHashCode());
+      return CreateAndFillSerializer(__name, context, name).ToJsonString();
+    }
     
     public static SmallXmlSerializer CreateAndFillSerializerFromQuery(string name, DbContext context, string query)
     {
